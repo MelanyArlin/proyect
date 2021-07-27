@@ -14,9 +14,17 @@ public class main {
     /**
      * @param args the command line arguments
      */
+     
+     
     public static void main(String[] args) {
         // TODO code application logic here
-         System.out.println("hola");
+        llamar_cita();
+    }
+         public static void llamar_cita() {
+             System.out.println("hola");
+    cita inicio = new cita();
+    inicio.setVisible(true);
+
     }
     
-}
+        }
